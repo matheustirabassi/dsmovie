@@ -18,4 +18,5 @@ a,
 a:hover {
 	text-decoration: none;
 	color: unset;
+  font-size: 12px;
 }
