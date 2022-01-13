@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class MovieController {
 
   @Autowired
-  MovieService service;
+  private MovieService service;
 
   @GetMapping
   public ResponseEntity<?> findAll(Pageable pageable) {

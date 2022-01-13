@@ -7,6 +7,9 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 import lombok.Data;
 
+/**
+ * O usuário.
+ */
 @Data
 @Entity
 @Table(name = "tb_user")

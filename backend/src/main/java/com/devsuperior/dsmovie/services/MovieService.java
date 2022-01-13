@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 public class MovieService {
 
   @Autowired
-  MovieRepository repository;
+  private MovieRepository repository;
 
 
   public Page<MovieDto> findAll(Pageable pageable) {

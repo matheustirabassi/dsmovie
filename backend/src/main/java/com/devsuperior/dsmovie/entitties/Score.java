@@ -6,6 +6,9 @@ import javax.persistence.Entity;
 import javax.persistence.Table;
 import lombok.Data;
 
+/**
+ * a avaliação¶.
+ */
 @Data
 @Entity
 @Table(name = "tb_score")
